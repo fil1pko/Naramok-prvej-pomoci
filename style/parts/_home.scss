@@ -1,0 +1,50 @@
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    background-color: $bg;
+    z-index: 29;
+    article{
+            // z-index: 3;
+            // position: fixed;
+            h1{
+                color: $white;
+                font-size: 5.0625rem;
+                font-weight: 700;
+                line-height: 121px;
+            }
+            h4{
+                font-size: 30px;
+                font-weight: 300;
+                color: $greyHeader;
+                margin-bottom: 72px;
+            }
+            a{
+                font-size: 20px;
+                display: inline-block;
+                text-decoration: none;
+                font-style: italic;
+                font-weight: 700;
+                color: $white;
+                border: 1px solid $white;
+                border-radius: 32px;
+                padding: 8px 25px 8px 25px;
+                cursor: pointer;
+                i{
+                    margin-left: 8px;
+                }
+            }
+    }
+    #blobox{
+            canvas{
+                // z-index: 4;
+                // right: 0;
+            //  max-width: 00px !important;
+                // height: 500px !important;
+            }
+    }
+    }

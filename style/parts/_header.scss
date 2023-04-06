@@ -1,0 +1,41 @@
+header{
+    background-color: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    padding-bottom: 20px;
+    background-image: linear-gradient(to bottom, $black, transparent);
+   .wraper{
+        max-width: 1660px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        h3{
+            font-size: 30px;
+            color: $white;
+        }
+        nav{
+            padding-top: 10px;
+            // border-bottom: 1px solid $greyHeader;
+            ul{
+                display: flex;
+                list-style: none;
+                gap: 79px;
+                li{
+                    a{
+                        height: 130px;  
+                        // padding: 20px 0 10px 0;
+                        text-decoration: none;
+                        color: $white;
+                        font-size: 1.5625rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+   }
+}
+
+.active{
+    font-weight: 700 !important;
+}

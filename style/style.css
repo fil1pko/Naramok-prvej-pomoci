@@ -4,4 +4,81 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+}
+
+header {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  padding-bottom: 20px;
+  background-image: linear-gradient(to bottom, #000000, transparent);
+}
+header .wraper {
+  max-width: 1660px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .wraper h3 {
+  font-size: 30px;
+  color: #ffffff;
+}
+header .wraper nav {
+  padding-top: 10px;
+}
+header .wraper nav ul {
+  display: flex;
+  list-style: none;
+  gap: 79px;
+}
+header .wraper nav ul li a {
+  height: 130px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5625rem;
+  font-weight: 500;
+}
+
+.active {
+  font-weight: 700 !important;
+}
+
+#home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: #262626;
+  z-index: 29;
+}
+#home article h1 {
+  color: #ffffff;
+  font-size: 5.0625rem;
+  font-weight: 700;
+  line-height: 121px;
+}
+#home article h4 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #ADADAD;
+  margin-bottom: 72px;
+}
+#home article a {
+  font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 700;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+  padding: 8px 25px 8px 25px;
+  cursor: pointer;
+}
+#home article a i {
+  margin-left: 8px;
 }/*# sourceMappingURL=style.css.map */

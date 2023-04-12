@@ -62,13 +62,13 @@ header .wraper nav ul li a {
   line-height: 121px;
 }
 #home article h4 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 300;
   color: #ADADAD;
   margin-bottom: 72px;
 }
 #home article a {
-  font-size: 20px;
+  font-size: 1.25rem;
   display: inline-block;
   text-decoration: none;
   font-style: italic;

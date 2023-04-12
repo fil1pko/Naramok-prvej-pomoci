@@ -4,9 +4,10 @@ header{
     top: 0;
     z-index: 30;
     padding-bottom: 20px;
-    background-image: linear-gradient(to bottom, $black, transparent);
+    background: transparent;
+    // background-image: linear-gradient(to bottom, $black, transparent);/
    .wraper{
-        max-width: 1660px;
+        max-width: 86.458vw;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -20,7 +21,7 @@ header{
             ul{
                 display: flex;
                 list-style: none;
-                gap: 79px;
+                gap: 4.115vw;
                 li{
                     a{
                         height: 130px;  

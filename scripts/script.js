@@ -6,8 +6,8 @@ function init() {
 }
 
 var Theme = {secundary: 2500134}
-var Sizew = {sirka: 500}
-var Sizeh = {vyska: 500}
+var Sizew = {sirka: 500 }
+var Sizeh = {vyska: 500 }
 
 var scene, camera, renderer;
 var _width, _height;
@@ -17,6 +17,8 @@ var start = Date.now();
 function createWorld() {
   _width = Sizew.sirka;
   _height= Sizeh.vyska;
+  // _width = window.innerWidth / 5.5;
+  // _height = window.innerHeight / 2.5;
   scene = new THREE.Scene();
   scene.background = new THREE.Color(Theme.secundary);
   camera = new THREE.PerspectiveCamera(35, _width/_height, 1, 1000);

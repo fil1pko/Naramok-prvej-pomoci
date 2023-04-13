@@ -4,21 +4,39 @@
         max-width: 100vw;
         height: 100vh;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
+        :nth-child(3){
+            .content-box{
+                flex-direction: row-reverse;
+                p{
+                    margin-right: 20px;
+                }
+            }
+        }
+        :nth-child(1){
+            .content-box{
+                p{
+                    margin-left: 20px;
+                }
+            }
+        }
         .content{
             display: flex;
             flex-direction: column;
-            gap: 205px;
+            gap: 105px;
             .content-box{
+                padding: 20px;
                 display: flex;
-                // text-align: center;
                 align-items: center;
                 min-height: 108px;
-                max-width: 687px;
+                max-width: 637px;
                 color: $greyInfo;
                 background: $bgInfo;
                 font-size: 16px;
+                img{
+                    max-width: 80px;
+                }
             }
         }
         img{

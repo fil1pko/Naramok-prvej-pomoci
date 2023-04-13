@@ -88,11 +88,9 @@ header .wraper nav ul li a {
 #home article a i {
   margin-left: 8px;
 }
+
 #timeline {
-  height: 100vh;
-}
-#timeline :nth-child(even) {
-  float: right;
+  min-height: 100vh;
 }
 #timeline .card {
   background-color: #FF7619;
@@ -116,4 +114,32 @@ header .wraper nav ul li a {
 }
 #timeline .card img {
   max-width: 513px;
+}
+
+#info {
+  min-height: 100vh;
+}
+#info .container-fluid {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#info .container-fluid .content {
+  display: flex;
+  flex-direction: column;
+  gap: 205px;
+}
+#info .container-fluid .content .content-box {
+  display: flex;
+  align-items: center;
+  min-height: 108px;
+  max-width: 687px;
+  color: #707070;
+  background: rgba(13, 13, 13, 0.2);
+  font-size: 16px;
+}
+#info .container-fluid img {
+  max-width: 300px;
 }/*# sourceMappingURL=style.css.map */

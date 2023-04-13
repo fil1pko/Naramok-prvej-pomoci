@@ -1,8 +1,8 @@
 #timeline{
-    height: 100vh;
-    :nth-child(even){
-        float: right;
-    }
+    min-height: 100vh;
+    // :nth-child(even){
+    //     float: right;
+    // }
     .card{
         background-color: $orange;
         width: 513px;

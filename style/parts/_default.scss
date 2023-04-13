@@ -4,3 +4,11 @@
     font-family: $poppins;
     box-sizing: border-box;
 }
+
+body{
+    background-color: $bg;
+}
+
+html{
+    scroll-behavior: smooth;
+}

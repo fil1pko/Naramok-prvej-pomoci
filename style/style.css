@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #262626;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   background-color: transparent;
   position: sticky;
@@ -83,12 +91,29 @@ header .wraper nav ul li a {
 #timeline {
   height: 100vh;
 }
+#timeline :nth-child(even) {
+  float: right;
+}
 #timeline .card {
   background-color: #FF7619;
   width: 513px;
-  height: 660px;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 3px 3px 19px #000000;
+  color: #ffffff;
 }
-
-body {
-  background-color: #262626;
+#timeline .card dl {
+  padding: 25px;
+}
+#timeline .card dl h4 {
+  font-size: 20px;
+}
+#timeline .card dl dd {
+  font-size: 18px;
+  text-align: justify;
+}
+#timeline .card img {
+  max-width: 513px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,20 @@
 footer{
     min-height: 525px;
     background-color: $bgfooter;
+    .footer-wraper{
+        display: flex;
+        justify-content: space-around;
+        article{
+            h4{
+                color: $white;
+            }
+            p{
+                max-width: 531px;
+            }
+            input{
+                width: 531px;
+                height: 228px;
+            }
+        }
+    }
 }

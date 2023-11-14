@@ -1,29 +1,36 @@
 #timeline{
     min-height: 100vh;
-    // :nth-child(even){
-    //     float: right;
-    // }
-    .card{
-        background-color: $orange;
-        width: 513px;
-        height: 510px;
+    .timeline-wraper{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 3px 3px 19px $black;
-        color: $white;
-        dl{
-            padding: 25px;
-            h4{
-                font-size: 20px;
-            }
-            dd{
-                font-size: 18px;
-                text-align: justify;
-            }
+        align-items: center;
+        width: 800px;
+        &:nth-child(even){
+            justify-content: end;
         }
-        img{
-            max-width: 513px;
+        .card{
+            background-color: $orange;
+            width: 513px;
+            height: 510px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 3px 3px 19px $black;
+            color: $white;
+            margin-bottom: 50px;
+            dl{
+                padding: 25px;
+                h4{
+                    font-size: 20px;
+                }
+                dd{
+                    font-size: 18px;
+                    text-align: justify;
+                }
+            }
+            img{
+                max-width: 513px;
+            }
         }
     }
 }

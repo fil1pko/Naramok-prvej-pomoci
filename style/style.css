@@ -39,14 +39,14 @@ header .wraper nav {
 header .wraper nav ul {
   display: flex;
   list-style: none;
-  gap: 4.115vw;
+  gap: 2.015vw;
 }
 header .wraper nav ul li a {
   height: 130px;
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.5625rem;
-  font-weight: 500;
+  font-size: 1.2625rem;
+  font-weight: 400;
 }
 
 .active {
@@ -93,7 +93,16 @@ header .wraper nav ul li a {
 #timeline {
   min-height: 100vh;
 }
-#timeline .card {
+#timeline .timeline-wraper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+}
+#timeline .timeline-wraper:nth-child(even) {
+  justify-content: end;
+}
+#timeline .timeline-wraper .card {
   background-color: #FF7619;
   width: 513px;
   height: 510px;
@@ -102,18 +111,19 @@ header .wraper nav ul li a {
   justify-content: space-between;
   box-shadow: 3px 3px 19px #000000;
   color: #ffffff;
+  margin-bottom: 50px;
 }
-#timeline .card dl {
+#timeline .timeline-wraper .card dl {
   padding: 25px;
 }
-#timeline .card dl h4 {
+#timeline .timeline-wraper .card dl h4 {
   font-size: 20px;
 }
-#timeline .card dl dd {
+#timeline .timeline-wraper .card dl dd {
   font-size: 18px;
   text-align: justify;
 }
-#timeline .card img {
+#timeline .timeline-wraper .card img {
   max-width: 513px;
 }
 
@@ -161,4 +171,18 @@ header .wraper nav ul li a {
 footer {
   min-height: 525px;
   background-color: #1A1A1A;
+}
+footer .footer-wraper {
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer-wraper article h4 {
+  color: #ffffff;
+}
+footer .footer-wraper article p {
+  max-width: 531px;
+}
+footer .footer-wraper article input {
+  width: 531px;
+  height: 228px;
 }/*# sourceMappingURL=style.css.map */

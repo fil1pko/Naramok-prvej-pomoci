@@ -1,13 +1,13 @@
 #timeline{
     min-height: 100vh;
+    display: flex;
+    align-items: center;
     .timeline-wraper{
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
         width: 800px;
-        &:nth-child(even){
-            justify-content: end;
-        }
         .card{
             background-color: $orange;
             width: 513px;

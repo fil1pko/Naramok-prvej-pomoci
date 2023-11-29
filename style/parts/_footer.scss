@@ -1,6 +1,7 @@
 footer{
-    min-height: 525px;
+    min-height: 225px;
     background-color: $bgfooter;
+    padding-top: 30px;
     .footer-wraper{
         display: flex;
         justify-content: space-around;
